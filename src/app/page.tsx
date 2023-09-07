@@ -83,8 +83,8 @@ export default function Home() {
             Steps
           </p>
           <div className='overflow-y-auto h-[250px] pr-5'>
-            { steps.map(step => {
-              return <p>
+            { steps.map((step, i) => {
+              return <p key={i}>
                 { step }
               </p>
             }) }
