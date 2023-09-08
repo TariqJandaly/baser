@@ -22,7 +22,6 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
-        <Script type='text/javascript' src={process.env.AD1}></Script>
       </body>
     </html>
   )
